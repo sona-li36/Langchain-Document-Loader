@@ -2,6 +2,11 @@ from langchain_community.document_loaders import TextLoader
 
 # Load the cricket.txt file
 loader = TextLoader("cricket.txt")
-documents = loader.load()
+doc= loader.load()
 
-print(documents)
+print(doc)
+print(type(doc))
+
+print(len(doc))
+
+print(doc[0])
