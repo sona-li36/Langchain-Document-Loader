@@ -1,8 +1,8 @@
 from langchain_community.document_loaders import TextLoader
 from langchain_openai import ChatOpenAI
-from langchaian_core.output_parsers import StrOutParser
+from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import PromptTemplate
-from dotenv import oad_dotenv
+from dotenv import load_dotenv
 
 load_dotenv()
 
